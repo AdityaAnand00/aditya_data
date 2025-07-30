@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;400&display=swap');
+        body {
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(120deg, #e3f0ff 0%, #ffdbe1 100%);
+            font-family: 'Montserrat', Arial, sans-serif;
+            color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .container {
+            background: rgba(255,255,255,0.94);
+            margin: 40px auto;
+            padding: 38px 40px 30px;
+            border-radius: 20px;
+            max-width: 700px;
+            width: 95vw;
+            box-shadow: 0 6px 32px rgba(44,62,80,0.15), 0 2px 8px rgba(41,128,185,0.08);
+            animation: popin 0.9s cubic-bezier(.6,.4,0,1.14);
+            transition: box-shadow 0.3s;
+        }
+        @keyframes popin {
+            0% { transform: translateY(40px) scale(0.97); opacity: 0; }
+            100% { transform: none; opacity: 1;}
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.45rem;
+            letter-spacing: 2px;
+            font-weight: 700;
+            margin-bottom: 34px;
+            background: linear-gradient(90deg, #4fc3f7, #ba68c8, #ffd54f);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            font-size: 1.28rem;
+            letter-spacing: 1px;
+            color: #512da8;
+            border-bottom: 2px solid #b3b8ca;
+            padding-bottom: 4px;
+            margin: 24px 0 10px 0;
+            font-weight: 600;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #1565c0;
+        }
+        .contact, .footer {
+            font-style: italic;
+            font-size: 0.97rem;
+            margin-top: 12px;
+            color: #7b809a;
+        }
+        section {
+            background: #f6f9fd;
+            padding: 16px 24px 13px;
+            border-radius: 12px;
+            margin-bottom: 21px;
+            box-shadow: 0 1.5px 12px 0 rgba(175,190,220,0.05);
+        }
+        .footer {
+            text-align: center;
+            color: #b8bac2;
+            font-size: 0.87rem;
+            padding-top: 11px;
+            margin-top: 34px;
+            letter-spacing: 1.1px;
+        }
+        @media (max-width:600px) {
+            .container { padding: 13vw 4vw 8vw; margin: 3vw auto;}
+            h1 {font-size: 1.35rem;}
+            h2 {font-size: 1rem;}
+            section {padding: 12px 7vw;}
+        }
+        /* Subtle hover effect on sections */
+        section:hover {
+            box-shadow: 0 6px 24px rgba(76,175,241,0.09);
+            transition: box-shadow 0.26s cubic-bezier(.4,.12,.3,1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Biodata</h1>
+
+        <section>
+            <h2>Personal Details</h2>
+            <ul>
+                <li><span class="highlight">Name:</span> Aditya Anand</li>
+                <li><span class="highlight">Date of Birth / Age:</span> 14-October-2003, 21 years (as of July 2025)</li>
+                <li><span class="highlight">Gender:</span> Male</li>
+                <li><span class="highlight">Height:</span> 165.1 cm</li>
+                <li><span class="highlight">Weight:</span> 63 kg</li>
+                <li><span class="highlight">Complexion:</span> Fair</li>
+                <li><span class="highlight">Religion:</span> Hindu</li>
+                <li><span class="highlight">Caste:</span> Thakur</li>
+                <li><span class="highlight">Gotra:</span> Kashyap</li>
+                <li><span class="highlight">Village:</span> Buxar</li>
+                <li><span class="highlight">Hometown (Since Childhood):</span> Patna</li>
+                <li><span class="highlight">Blood Group:</span> O+</li>
+                <li><span class="highlight">Language(s):</span> Hindi, English</li>
+                <li><span class="highlight">Local Language:</span> Bhojpuri</li>
+                <li><span class="highlight">Address:</span> HanumanNagar, Kankarbagh, Kailashpuri 800020, Patna, Bihar</li>
+                <li class="contact"><span class="highlight">Contact Number / Email:</span> 9142070597 / adityaanandvv98@gmail.com</li>
+            </ul>
+        </section>
+
+<section>
+    <h2>Family Details</h2>
+    <ul>
+        <li><span class="highlight">Father’s Name & Occupation:</span> Mr. Umesh Kumar | Office Superintendent (Government Employee), PMCH Patna</li>
+        <li><span class="highlight">Mother’s Name & Occupation:</span> Mrs. Gita Kumari | Homemaker</li>
+        <li><span class="highlight">Siblings:</span> I am the youngest of three children. My elder sister is married, while my second sister is based in Gulbarga, Karnataka, dedicated to a career in the teaching profession.</li>
+        <li><span class="highlight">Family Background:</span> Nuclear Family</li>
+    </ul>
+</section>
+
+
+        <section>
+            <h2>Educational Background</h2>
+            <ul>
+                <li><span class="highlight">Highest Qualification:</span> B.Tech in Computer Science & Engineering, Lovely Professional University, Punjab – 8.40 CGPA (Graduated: 2024)</li>
+                <li><span class="highlight">12th Boards:</span> PCM, Kendriya Vidyalaya Patna (CBSE) – 90% (Batch of 2020)</li>
+                <li><span class="highlight">10th Boards:</span> Science, New Era High School Patna (CBSE) – 93.6% (Batch of 2018)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Professional Details</h2>
+            <ul>
+                <li><span class="highlight">Occupation:</span> Software Development Engineer (SDE) in the Automotive Domain – actively contributing to next-generation vehicle technologies</li>
+                <li><span class="highlight">Organization:</span> KPIT Technologies, Pune</li>
+                <li><span class="highlight">Experience:</span> 1.5 years (and continuing)</li>
+                <li><span class="highlight">Tech Stack:</span> AWS, C++, MERN</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Lifestyle & Interests</h2>
+            <ul>
+                <li>My life circulates around work, games, cricket, songs, and travelling.</li>
+                <li><span class="highlight">Dietary Preferences:</span> Veg and Non-veg</li>
+            </ul>
+        </section>
+
+        <div class="footer">
+            &copy; 2025 Aditya Anand
+        </div>
+    </div>
+</body>
+</html>
